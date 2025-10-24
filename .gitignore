@@ -1,0 +1,19 @@
+# node
+node_modules/
+**/node_modules/
+
+# env
+backend/.env
+frontend/.env.local
+.env.local
+.env
+
+# build
+/backend/dist
+/frontend/.next
+npm-debug.log
+yarn-error.log
+
+# DB
+*.sqlite
+*.db
